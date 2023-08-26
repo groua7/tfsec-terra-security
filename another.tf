@@ -13,7 +13,7 @@ resource "aws_vpc" "demo_vpc" {
 }
 
 resource "aws_autoscaling_group" "my_asg" {
-  availability_zones        = ["us-west-1a"]
+  availability_zones        = ["us-east-1a"]
   name                      = "my_asg"
   max_size                  = 5
   min_size                  = 1
